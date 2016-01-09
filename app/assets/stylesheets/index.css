@@ -9,6 +9,12 @@ h1,h4{
 .center{
   text-align: center;
 }
-a{
-  display: block;
+.description{
+  display: inline;
+}
+#machinelink{
+  padding: 0 120px 0 220px;
+}
+#castlelink{
+  padding: 0 183px 0 283px;
 }
