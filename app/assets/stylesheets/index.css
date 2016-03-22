@@ -1,23 +1,12 @@
-h1,h4{
+.green{
   color: green;
 }
 
 #me{
   position: relative;
-  left: 34%;
+  left: 25%; /* (100 - width) / 2 */
+  width: 50%;
 }
 .center{
   text-align: center;
-}
-.description{
-  display: inline;
-}
-#machinelink{
-  padding: 0 120px 0 220px;
-}
-#castlelink{
-  padding: 0 183px 0 283px;
-}
-#orbitlink{
-  padding: 0 179px 0 329px;
 }
