@@ -1,9 +1,9 @@
-#   gem install pg
+  #   gem install pg
 #
 #   gem 'pg'
 #
 default: &default
-  adapter: postgresql
+  adapter: sqlite3
   pool: 5
   timeout: 5000
 
@@ -19,5 +19,8 @@ test:
   database: my_database_test
 
 production:
-  <<: *default
+  # <<: *default
+  adapter: postgresql
+  pool: 5
+  timeout: 5000
   database: my_database_production
