@@ -10,3 +10,7 @@
 .center{
   text-align: center;
 }
+
+body {
+  opacity: 0;
+}
